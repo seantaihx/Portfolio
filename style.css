@@ -32,6 +32,7 @@ header {
   margin-right: 10px;
   border-radius: 8px;
   transition: background 0.3s;
+  font-size: 18px;
 }
 .navLeft a:hover {
   background-color: rgba(255, 255, 255, 0.15);
@@ -42,7 +43,7 @@ header {
   display: inline-block;
   color: #ffffff;  /* always white */
   text-decoration: none;
-  font-size: 24px;  /* match icon size */
+  font-size: 18px;  /* match icon size */
   padding: 8px 12px;
   margin-left: 12px;
   border-radius: 8px;
