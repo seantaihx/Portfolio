@@ -9,7 +9,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Navigation */
 /* Header styling */
 header {
   background-color: #000000;
@@ -52,4 +51,18 @@ header {
 .navRight a:hover {
   background-color: rgba(255, 255, 255, 0.15);  /* soft gray on hover */
   color: #ffffff; /* stay white */
+}
+
+section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h1{
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
 }
