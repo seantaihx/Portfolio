@@ -38,7 +38,7 @@ header {
   color: #ffffff;
 }
 /* Right icons */
-.nav-right a {
+.navRight a {
   display: inline-block;
   color: #ffffff;  /* always white */
   text-decoration: none;
@@ -48,7 +48,7 @@ header {
   border-radius: 8px;
   transition: background 0.3s ease;
 }
-.nav-right a:hover {
+.navRight a:hover {
   background-color: rgba(255, 255, 255, 0.15);  /* soft gray on hover */
   color: #ffffff; /* stay white */
 }
