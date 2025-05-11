@@ -40,15 +40,15 @@ header {
 /* Right icons */
 .nav-right a {
   display: inline-block;
+  color: #ffffff;  /* always white */
   text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
+  font-size: 24px;  /* match icon size */
   padding: 8px 12px;
-  border-radius: 8px;
   margin-left: 12px;
-  transition: background 0.3s;
+  border-radius: 8px;
+  transition: background 0.3s ease;
 }
 .nav-right a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);  /* soft gray on hover */
+  color: #ffffff; /* stay white */
 }
