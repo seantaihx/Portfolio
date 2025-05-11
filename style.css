@@ -33,4 +33,6 @@ header {
 .navLeft a:hover {
   background-color: #2e2e2e;
   color: #ffffff;
+  transform: scale(1.5);  /* Make it 10% bigger */
+  transition: transform 0.2s ease;
 }
