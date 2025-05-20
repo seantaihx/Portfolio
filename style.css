@@ -42,7 +42,7 @@ header {
   display: inline-block;
   color: #ffffff;  /* always white */
   text-decoration: none;
-  font-size: 18px;  /* match icon size */
+  font-size: 18px; 
   padding: 8px 12px;
   margin-left: 12px;
   border-radius: 8px;
@@ -54,9 +54,29 @@ header {
 }
 
 .home {
-  font-size: 40px;            /* 200px is way too large */
+  font-size: 60px;   
   color: #ffffff;
   text-align: center;         /* center the text horizontally */
   margin: 0 auto 20px auto;   /* center it horizontally with spacing below */
 }
 
+#homepage {
+  background: linear-gradient(-45deg, #1a1a1a, #2c2c2c, #1a1a1a);
+  background-size: 600% 600%;
+  animation: bgAnim 15s ease infinite;
+  padding: 100px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+@keyframes bgAnim {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#homepage p, #homepage ul {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
